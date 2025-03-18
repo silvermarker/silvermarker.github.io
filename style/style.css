@@ -1,59 +1,72 @@
-p {
-  color: red;
-  margin: 30px 0;
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
 }
-html {
-  background-color: #bde4c2;
-  font-size: 25px;
-  font-family: "Open Sans", sans-serif;
-  min-height: 100vh;
-}
-body {
+
+#upp-image {
   max-width: 800px;
-  width: 90%;
-  margin: 40px auto;
-  background-color: #ff9500;
-  padding: 30px;
-  border: 5px solid black;
-  border-radius: 15px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
-h1 {
-  margin: 0 0 30px 0;
-  padding: 20px 0;
-  color: #00539f;
-  text-shadow: 3px 3px 1px black;
-  text-align: center;
-}
-#lobby {
-  max-width: 100%;
-  overflow: hidden;
-  border-radius: 10px;
-  margin-bottom: 30px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-}
-video {
+
+body {
+  background-color: #4b7c99;
   width: 100%;
-  height: auto;
-  display: block;
-  max-height: 450px;
-  object-fit: cover;
+  height: 100%;
+  background: url("/images/wallhaven-5g22q5.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
 }
-ul {
-  list-style-type: square;
-  padding-left: 40px;
-  margin: 30px 0;
-  line-height: 1.6;
+
+#bigbox {
+  width: 1000px;
+  margin: 0 auto;
 }
-ul li {
-  margin-bottom: 15px;
+
+nav {
+  background-color: #ccd0d9;
+  width: 1000px;
+  height: 60px;
 }
-a {
-  color: #d80000;
+
+nav a {
   text-decoration: none;
-  transition: color 0.3s ease;
+  line-height: 60px;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: #020c16;
+  font-weight: bold;
 }
-a:hover {
-  color: #ff0000;
-  text-decoration: underline;
+
+nav a:hover {
+  color: #1a9be6;
+}
+
+#main {
+  height: 490px;
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #86aacb;
+}
+
+h2 {
+  box-sizing: border-box;
+  padding-left: 10px;
+  font-size: 20px;
+  line-height: 30px;
+  background-color: #03151f;
+  color: #ccd0d9;
+}
+
+footer {
+  line-height: 60px;
+  font-size: 14px;
+  text-align: center;
+  background-color: #ccd0d9;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  margin-left: 80px;
 }
